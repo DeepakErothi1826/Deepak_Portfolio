@@ -19,10 +19,10 @@ export const Contact = () => {
     setButtonText("Sending...");
     emailjs
       .sendForm(
-        "service_9foakie",
-        "template_rk9t39a",
+        "service_ijbf6lj",
+        "template_d4bupf3",
         form.current,
-        "zUmZw1JQqxtQfumlU"
+        "8ncNFsMWAc5nyM5-2"
       )
       .then(
         (result) => {

@@ -7,7 +7,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
-import logo from "../assets/img/logo.png";
+import img from "../assets/img/img.png";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -21,14 +21,22 @@ export const NavBar = () => {
         setScrolled(false);
       }
     };
-
     window.addEventListener("scroll", onScroll);
-
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+  };
+
+  // ✅ Function to download resume
+  const handleDownloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "/Resume%20Updated.pdf";  // 👈 encode the space as %20
+    link.download = "Resume Updated.pdf";// File name when downloaded
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -43,20 +51,27 @@ export const NavBar = () => {
               className="d-flex gap-2 align-items-center text-decoration-none text-white nav-title me-4"
               href="."
             >
-              <div style={{ width: "50px" }}>
+              <div style={{ width: "100px", }}>
                 <img
-                  src={logo}
-                  alt="logo"
+                  src={img}
+                  alt="img"
                   className="nav-title-img"
-                  style={{ width: "100%" }}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "cover",
+                    borderRadius: "50%",
+                  }}
                 />
               </div>
               <h1>portfolio</h1>
             </a>
           </div>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
+
           <Navbar.Collapse id="basic-navbar-nav">
             <div className="d-flex gap-4 justify-content-around m-auto">
               <Nav.Link
@@ -68,6 +83,7 @@ export const NavBar = () => {
               >
                 Home
               </Nav.Link>
+
               <Nav.Link
                 href="#skills"
                 className={
@@ -77,6 +93,7 @@ export const NavBar = () => {
               >
                 Skills
               </Nav.Link>
+
               <Nav.Link
                 href="#projects"
                 className={
@@ -88,12 +105,22 @@ export const NavBar = () => {
               >
                 Projects
               </Nav.Link>
+
+              {/* ✅ Download Resume button */}
+              <Nav.Link
+                as="button"
+                className="navbar-link btn btn-link text-decoration-none"
+                onClick={handleDownloadResume}
+                style={{ cursor: "pointer" }}
+              >
+                Download Resume
+              </Nav.Link>
             </div>
 
             <div className="navbar-text d-flex justify-content-between align-items-center">
               <div className="social-icon">
                 <a
-                  href="https://www.linkedin.com/in/rahul-khushalani-77ab21201/"
+                  href="https://www.linkedin.com/in/deepakerothi/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -104,7 +131,7 @@ export const NavBar = () => {
                   />
                 </a>
                 <a
-                  href="https://github.com/lazyjinchuriki"
+                  href="https://github.com/DeepakErothi1826"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -115,7 +142,7 @@ export const NavBar = () => {
                   />
                 </a>
                 <a
-                  href="https://www.instagram.com/amundaneguy/"
+                  href="https://www.instagram.com/_deepak_1826"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -126,6 +153,7 @@ export const NavBar = () => {
                   />
                 </a>
               </div>
+
               <HashLink to="#connect">
                 <button className="text-nowrap">
                   <span>Let’s Connect</span>

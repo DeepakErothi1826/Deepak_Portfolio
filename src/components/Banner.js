@@ -10,7 +10,7 @@ export const Banner = () => {
 
   useEffect(() => {
     // Initialize Typed.js once the component is mounted
-    const toRotate = ["Web Developer", "Illustrator", "UI/UX Designer"];
+    const toRotate = ["Web Developer", "Front-End Developer", "UI/UX Designer"];
     const options = {
       strings: toRotate,
       typeSpeed: 50, // typing speed in milliseconds
@@ -36,21 +36,14 @@ export const Banner = () => {
           <Row className="align-items-center">
             <Col xs={12} md={6} xl={7}>
               <span className="tagline">Welcome to my Portfolio</span>
-              <h1>{"Rahul Khushalani"}</h1>
+              <h1>{"Deepak Erati"}</h1>
               <span className="wrap">
                 {"{ "}
                 <span ref={textRef}></span> {/* Use the textRef for Typed.js */}
                 {"}"}
               </span>
               <p>
-                As a beginner Web Developer and Illustrator, I have a passion
-                for creating visually appealing and functional digital content.
-                I am constantly seeking to improve my skills and expand my
-                knowledge, experimenting with different tools and techniques to
-                create engaging designs and user-friendly websites. With a
-                combination of creativity and technical know-how, I am eager to
-                bring my ideas to life and make a meaningful impact in the
-                digital world.
+               As a dedicated Full Stack and Mobile Application Developer, I am passionate about creating digital experiences that are both visually engaging and seamlessly functional. I enjoy transforming ideas into interactive products that deliver value, combining thoughtful design with efficient development practices.Constantly seeking to learn and grow, I explore new technologies and creative approaches to refine my work and stay aligned with modern industry trends. With a strong focus on user experience and detail, I aim to build products that not only look great but also make a real impact in the digital world.
               </p>
             </Col>
             <Col xs={12} md={6} xl={5}>

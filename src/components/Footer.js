@@ -12,7 +12,7 @@ export const Footer = () => {
         <Col>
           <div className="social-icon">
             <a
-              href="https://www.linkedin.com/in/rahul-khushalani-77ab21201/"
+              href="https://www.linkedin.com/in/deepakerothi/"
               target="_blank"
               rel="noreferrer"
             >
@@ -23,7 +23,7 @@ export const Footer = () => {
               />
             </a>
             <a
-              href="https://github.com/lazyjinchuriki"
+              href="https://github.com/DeepakErothi1826"
               target="_blank"
               rel="noreferrer"
             >
@@ -34,7 +34,7 @@ export const Footer = () => {
               />
             </a>
             <a
-              href="https://www.instagram.com/amundaneguy/"
+              href="https://www.instagram.com/_deepak_1826"
               target="_blank"
               rel="noreferrer"
             >

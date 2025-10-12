@@ -8,6 +8,9 @@ import projImg5 from "../assets/img/Illustrations/Mandala.png";
 import projImg6 from "../assets/img/Illustrations/Neko.png";
 import cinephile from "../assets/img/Websites/cinephile.png";
 import pokedex from "../assets/img/Websites/pokedex.png";
+import FruityBuss from "../assets/img/Websites/FruityBuss.png";
+import SmokeJones from "../assets/img/Websites/SmokeJones.png";
+import loginFlow from "../assets/img/Websites/loginFlow.png";
 import gallery from "../assets/img/Websites/gallery.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -16,6 +19,33 @@ import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const websites = [
+    {
+      title: "FruityBuss Parallax Experience",
+      isWebsite: true,
+      description:
+        "FruityBuss is a parallax-based UI/UX design project showcasing a vibrant, interactive beverage website with smooth animations and engaging user experience.",
+      imgUrl: FruityBuss,
+      Url: "https://www.figma.com/proto/cblPAFb9yEOMISie1zJDjf/Untitled?node-id=0-1&fuid=1412720828761625255",
+      // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
+    },
+    {
+      title: "Smoke&Jones Restaurant Mobile Appication  ",
+      isWebsite: true,
+      description:
+        "Smoke&Jones Restaurant Mobile Application is a modern food ordering app that offers an intuitive and visually engaging interface for browsing menus, customizing orders, and completing secure payments — delivering a seamless and enjoyable dining experience right from your phone.",
+      imgUrl: SmokeJones,
+      Url: "https://www.figma.com/proto/Ttpb8odZezsB2TO4H4JQCj/Restaurant-menu?node-id=70-554&starting-point-node-id=48%3A300",
+      // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
+    },
+    {
+      title: "Login page sign-up flow Ui/Ux",
+      isWebsite: true,
+      description:
+        "FruityBuss is a parallax-based UI/UX design project showcasing a vibrant, interactive beverage website with smooth animations and engaging user experience.",
+      imgUrl: loginFlow,
+      Url: "https://www.figma.com/proto/bk4wze5dJnU1tVWHKaKqCx/Mobile-App-Signup-Flow?node-id=7-64&p=f&t=W9XrZpaYsE2NIzgP-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A64",
+      // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
+    },
     {
       title: "Cinephile",
       isWebsite: true,

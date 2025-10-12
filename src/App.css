@@ -501,23 +501,50 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill h2 {
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 700;
+  padding-top: 70px; /* ⬇️ moved text slightly down */
+  margin-top: 60px;  /* ⬇️ extra breathing space */
 }
 
 .skill p {
   color: #B8B8B8;
   font-size: 18px;
   justify-content: center;
+  text-align: center;
   width: 96%;
   line-height: 1.5em;
-  margin: 14px 0 75px 0;
+  margin: 29px 20px 29px 20px;
 }
 
 .skill-slider {
   width: 80%;
-  margin: 0 auto;
+  margin: 80px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  overflow-x: hidden; /* ⛔ prevent scrollbar while animating */
   position: relative;
+  background: linear-gradient(145deg, rgba(10, 14, 42, 0.95), rgba(28, 28, 28, 0.95));
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 50px 30px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 35px rgba(255, 107, 61, 0.15);
+  animation: pulse-border 6s infinite alternate;
+}
+
+/* ✅ Infinite horizontal scroll effect */
+.skill-slider .scroll-content {
+  display: flex;
+  gap: 40px;
+  animation: scrollLoop 40s linear infinite;
+}
+
+@keyframes scrollLoop {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 .skill-slider .item img {
@@ -532,6 +559,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}
+.background-image-right {
   top: 28%;
   position: absolute;
   bottom: 0;

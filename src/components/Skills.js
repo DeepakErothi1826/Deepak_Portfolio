@@ -62,15 +62,8 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <p>
-                As a web developer, I have experience in HTML, CSS, JavaScript,
-                and various web development frameworks such as React and
-                Node.js. I am also proficient in designing and building
-                responsive web interfaces that are optimized for different
-                devices and screen sizes.<br></br> As an illustrator, I have a
-                keen eye for detail and a deep understanding of color theory and
-                composition. I am proficient in using Adobe Illustrator and
-                Photoshop to create visually appealing graphics and
-                illustrations for a wide range of digital media.{" "}
+              As a dedicated Full Stack and Mobile Application Developer, I am passionate about creating digital experiences that are both visually engaging and seamlessly functional. Skilled in technologies such as React, Next.js, Vue.js, Node.js, Express, Flask, and Django, I enjoy transforming ideas into interactive products that deliver real value. My expertise spans frontend and backend development, mobile app creation using React Native and Flutter, and working with databases like MongoDB, MySQL, and Firebase to build efficient, scalable systems.
+              I combine thoughtful UI/UX design with strong programming fundamentals, leveraging tools like Figma, Git, Docker, and AWS to ensure performance and reliability. Constantly seeking to learn and grow, I explore new technologies and creative approaches to refine my work and stay aligned with modern industry trends. With a strong focus on user experience, clean architecture, and attention to detail, I aim to build products that not only look great but also make a real impact in the digital world.{" "}
               </p>
               <Carousel
                 responsive={responsive}
