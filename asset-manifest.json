@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Deepak_Portfolio/static/css/main.0bcec4d8.css",
+    "main.css": "/Deepak_Portfolio/static/css/main.e386812d.css",
     "main.js": "/Deepak_Portfolio/static/js/main.a497fa0c.js",
     "static/js/453.0b8e704e.chunk.js": "/Deepak_Portfolio/static/js/453.0b8e704e.chunk.js",
     "static/media/SmokeJones.png": "/Deepak_Portfolio/static/media/SmokeJones.4cddbf0950e0e1b94a42.png",
@@ -43,12 +43,12 @@
     "static/media/css.svg": "/Deepak_Portfolio/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/code.svg": "/Deepak_Portfolio/static/media/code.1b238488656ac7d087af180a1617e92d.svg",
     "static/media/html.svg": "/Deepak_Portfolio/static/media/html.8ae3d4adcd70a1028a6377697d9f33b0.svg",
-    "main.0bcec4d8.css.map": "/Deepak_Portfolio/static/css/main.0bcec4d8.css.map",
+    "main.e386812d.css.map": "/Deepak_Portfolio/static/css/main.e386812d.css.map",
     "main.a497fa0c.js.map": "/Deepak_Portfolio/static/js/main.a497fa0c.js.map",
     "453.0b8e704e.chunk.js.map": "/Deepak_Portfolio/static/js/453.0b8e704e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bcec4d8.css",
+    "static/css/main.e386812d.css",
     "static/js/main.a497fa0c.js"
   ]
 }
