@@ -1042,7 +1042,61 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .banner h2, .wrap { font-size: 3rem; }
 }
 
+/* 📱 Ultra-Narrow Screens (Galaxy Z Fold, old iPhones) */
+@media (max-width: 360px) {
+  .banner {
+    padding: 80px 15px 40px;
+    text-align: center;
+  }
 
+  .banner h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .banner h2,
+  .wrap {
+    font-size: 1.2rem;
+  }
+
+  .banner p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  .skill h2 {
+    font-size: 1.8rem;
+  }
+
+  .skill-slider {
+    width: 100%;
+    padding: 20px 10px;
+    gap: 10px;
+  }
+
+  .project h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  nav.navbar {
+    padding: 6px;
+  }
+
+  .navbar-link {
+    font-size: 0.9rem;
+    padding: 0 8px;
+  }
+
+  .contact form input,
+  .contact form textarea {
+    font-size: 0.9rem;
+    padding: 14px 20px;
+  }
+}
 
 
 
