@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import Typed from "typed.js"; // Import Typed.js library
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 export const Banner = () => {
   // Create a ref for the text element that you want to animate
