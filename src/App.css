@@ -984,6 +984,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+/* 📱 Extra Small Devices (Phones under 480px) */
+@media (max-width: 480px) {
+  .banner {
+    padding: 100px 20px 50px;
+    text-align: center;
+  }
+  .banner h1 { font-size: 2rem; }
+  .banner h2, .wrap { font-size: 1.3rem; }
+  .banner p { font-size: 0.95rem; width: 100%; }
+
+  .skill h2 { font-size: 2rem; }
+  .skill-slider { width: 95%; padding: 25px 15px; gap: 15px; }
+
+  .project h2 { font-size: 2rem; }
+  .project p { font-size: 1rem; }
+
+  .contact h2 { font-size: 1.8rem; }
+  .contact form button { width: 100%; }
+
+  nav.navbar { padding: 8px; }
+}
+
+/* 📱 Small Devices (Phones and Small Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner { padding: 140px 30px 70px; }
+  .banner h1 { font-size: 2.5rem; }
+  .banner h2, .wrap { font-size: 1.8rem; }
+
+  .skill h2 { font-size: 2.3rem; }
+  .skill-slider { width: 90%; padding: 30px 20px; }
+
+  .project h2 { font-size: 2.2rem; }
+  .contact h2 { font-size: 2.2rem; }
+}
+
+/* 📊 Medium Devices (Tablets and Small Laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .banner { padding: 180px 40px 80px; }
+  .banner h1 { font-size: 3rem; }
+  .banner h2, .wrap { font-size: 2rem; }
+
+  .skill h2 { font-size: 2.5rem; }
+  .project h2 { font-size: 2.5rem; }
+  .contact h2 { font-size: 2.5rem; }
+}
+
+/* 💻 Large Devices (Laptops & Desktops) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .banner h1 { font-size: 3.5rem; }
+  .banner h2, .wrap { font-size: 2.5rem; }
+}
+
+/* 🖥️ Extra Large Screens (Wide Desktops) */
+@media (min-width: 1441px) {
+  .banner h1 { font-size: 4rem; }
+  .banner h2, .wrap { font-size: 3rem; }
+}
+
 
 
 
