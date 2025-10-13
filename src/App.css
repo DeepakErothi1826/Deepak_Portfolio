@@ -869,7 +869,120 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+/* 📱 Mobile (max-width: 600px) */
+@media (max-width: 600px) {
+  .banner {
+    padding: 120px 20px 60px 20px;
+    text-align: center;
+  }
 
+  .banner h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .banner h2,
+  .wrap {
+    font-size: 1.5rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .skill h2 {
+    font-size: 2rem;
+  }
+
+  .skill-slider {
+    width: 95%;
+    padding: 30px 15px;
+    gap: 20px;
+  }
+
+  .project h2 {
+    font-size: 2rem;
+  }
+
+  .project p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .project .nav.nav-pills {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+
+  .proj-txtx h4 {
+    font-size: 1.4rem;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .contact form button {
+    width: 100%;
+  }
+
+  .social-icon {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav.navbar {
+    padding: 10px;
+  }
+}
+
+/* 📊 Tablet (601px – 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .banner {
+    padding: 180px 40px 80px 40px;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .banner h2,
+  .wrap {
+    font-size: 2rem;
+  }
+
+  .skill h2 {
+    font-size: 2.5rem;
+  }
+
+  .skill-slider {
+    width: 90%;
+    padding: 40px 25px;
+  }
+
+  .project h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact h2 {
+    font-size: 2.5rem;
+  }
+}
+
+/* 🖥️ Large Screens (1200px+) */
+@media (min-width: 1200px) {
+  .banner h1 {
+    font-size: 4.5rem;
+  }
+
+  .banner h2,
+  .wrap {
+    font-size: 3rem;
+  }
+}
 
 
 
