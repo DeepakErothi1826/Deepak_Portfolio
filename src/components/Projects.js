@@ -11,6 +11,8 @@ import pokedex from "../assets/img/Websites/pokedex.png";
 import FruityBuss from "../assets/img/Websites/FruityBuss.png";
 import SmokeJones from "../assets/img/Websites/SmokeJones.png";
 import loginFlow from "../assets/img/Websites/loginFlow.png";
+import Marval from "../assets/img/Websites/Marval.png";
+import Ericson from "../assets/img/Websites/Ericson.png";
 import gallery from "../assets/img/Websites/gallery.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -46,13 +48,22 @@ export const Projects = () => {
       Url: "https://www.figma.com/proto/bk4wze5dJnU1tVWHKaKqCx/Mobile-App-Signup-Flow?node-id=7-64&p=f&t=W9XrZpaYsE2NIzgP-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A64",
       // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
     },
-      {
+     {
       title: "MarvelVerse Cinematic Hero Showcase",
       isWebsite: true,
       description:
         "A Marvel-themed responsive website with a bold, cinematic UI, showcasing iconic superheroes through striking visuals, smooth navigation, and immersive storytelling.",
-      imgUrl: MarvalHeros,
+      imgUrl: Marval,
       Url: "https://www.figma.com/proto/Kgyl7WjNQudULBvdlEssWr/Untitled?node-id=3-2&starting-point-node-id=3%3A2&scaling=scale-down&content-scaling=fixed",
+      // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
+    },
+      {
+      title: "Ericson Mobile Application UI/UX Design",
+      isWebsite: true,
+      description:
+        "Ericson Mobile Application UI/UX Design is a clean, user-friendly interface crafted to simplify health insurance access and management. It features intuitive login and signup flows, clear navigation, and essential service details, all presented in a modern, responsive layout for a seamless user experience across devices.",
+      imgUrl: Ericson,
+      Url: "https://www.figma.com/proto/tuFr9b3Qmnc8hRGeLObBfh/Untitled?node-id=1-3&starting-point-node-id=9%3A2",
       // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
     },
     {
