@@ -42,7 +42,7 @@ export const Projects = () => {
       isWebsite: true,
       description:
         "FruityBuss is a parallax-based UI/UX design project showcasing a vibrant, interactive beverage website with smooth animations and engaging user experience.",
-      imgUrl: "loginFlow",
+      imgUrl: loginFlow,
       Url: "https://www.figma.com/proto/bk4wze5dJnU1tVWHKaKqCx/Mobile-App-Signup-Flow?node-id=7-64&p=f&t=W9XrZpaYsE2NIzgP-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A64",
       // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
     },
@@ -51,7 +51,7 @@ export const Projects = () => {
       isWebsite: true,
       description:
         "A Marvel-themed responsive website with a bold, cinematic UI, showcasing iconic superheroes through striking visuals, smooth navigation, and immersive storytelling.",
-      imgUrl: "MarvalHeros",
+      imgUrl: MarvalHeros,
       Url: "https://www.figma.com/proto/Kgyl7WjNQudULBvdlEssWr/Untitled?node-id=3-2&starting-point-node-id=3%3A2&scaling=scale-down&content-scaling=fixed",
       // githubUrl: "https://github.com/lazyjinchuriki/cinephile/",
     },
